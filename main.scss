@@ -174,3 +174,76 @@ body{
 
 
 
+$primary-red: #CF4232 ;
+$secondary-blue: #068675 ;
+$yellow: #FAC023 ;
+$base-font-size: 12px;
+$header-font-size: 25px;
+$base-padding: 15px;
+$font-family: 'Open Sans', sans-serif;
+
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration:none;
+  }
+  &:focus{
+    text-decoration: none;
+  }
+}
+.calendar {
+  display:flex;
+  flex-direction: column;
+  box-shadow:0 0 8px 2px grey;
+  margin: 1% 1% 1% 1%;
+  width:100%;
+
+  .month {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+
+  }
+
+  .calendarbody {
+    background-image:url("cirrus_clouds.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .week {
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top:.5%;
+    margin-bottom:.5%;
+
+    .weekdays {
+      display: flex;
+      width: 16.8%;
+      justify-content: center;
+      color:white;
+    }
+  }
+}
+.dates{
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+
+  .days{
+    border:01px solid gray;
+    width:13.5%;
+    margin-top: .25%;
+    margin-bottom: .25%;
+    background-color:white;
+    margin-left: .15%;
+    margin-right: .15%;
+    text-align:center;
+  }
+}
