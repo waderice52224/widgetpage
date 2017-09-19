@@ -238,7 +238,7 @@ a{
 
   .days{
     border:01px solid gray;
-    width:13.5%;
+    width:13.1%;
     margin-top: .25%;
     margin-bottom: .25%;
     background-color:white;
@@ -246,4 +246,108 @@ a{
     margin-right: .15%;
     text-align:center;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//@import "button";
+
+$primary-red: #EF3244 ;
+$secondary-blue: #54BEB3 ;
+$white: #FFFFFF ;
+$base-font-size: 12px;
+$header-font-size: 25px;
+$base-padding: 15px;
+$font-fam: sans-serif;
+$buttonColor: #1879ff ;
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: #febbbb ; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb ', endColorstr='#ff5c5c ',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  width: 300px;
+}
+
+.box {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+
+  //a {
+  //  display: none;
+  //}
+
+  &:hover {
+    //background: rgba(255, 255, 255, 0.15);
+    //background: rgba(0, 0, 0, 0.15);
+    //background: turquoise;
+    //color: white;
+
+    .img {
+      border-color: orange;
+    }
+    //a {
+    //  display: inline-block;
+    //}
+  }
+}
+
+.wrapper {
+  padding: 100px;
+}
+
+.img {
+
+  //margin: 10px;
+  //display: inline-block;
+  //background: #fefefe ;
+  //padding: 4px;
+  //text-align: center;
+
+  //color: #666;
+  //border: 1px solid transparent;
+  //text-decoration: none;
+  border-radius: 50%;
+  border: 4px solid white;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+
+
+  img {
+    //width: 100px;
+    height: 100%;
+
+  }
+
+}
+
+.rectangle {
+  padding: 5px;
 }
